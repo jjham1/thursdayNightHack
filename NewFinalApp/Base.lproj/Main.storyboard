@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="NewFinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1bebc2ae3763428cf224197d3cb3a49a" translatesAutoresizingMaskIntoConstraints="NO" id="fp6-rf-r4P">
+                                <rect key="frame" x="-37" y="-81" width="462" height="1059"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.20967280864715576" green="0.49558150768280029" blue="0.92637133598327637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Be Inspired" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAF-R5-zvv">
+                                <rect key="frame" x="38" y="251" width="339" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="70"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2A-LN-diL">
+                                <rect key="frame" x="132" y="343" width="124" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We're so glad you're here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xNO-Z4-WeM">
+                                <rect key="frame" x="28" y="387" width="332" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Txf-2M-rwC">
+                                <rect key="frame" x="133" y="642" width="148" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="50"/>
+                                <state key="normal" title="ENTER">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="plL-m5-Tm1" kind="show" id="XEk-1o-E7F"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="117.85714285714285"/>
+        </scene>
+        <!--Inspirational Music View Controller-->
+        <scene sceneID="WSc-AQ-VPg">
+            <objects>
+                <viewController id="mcs-pS-zXD" customClass="InspirationalMusicViewController" customModule="NewFinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="s1T-Zx-pPA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ddd2f2970877614132fe253d19a7dad8" translatesAutoresizingMaskIntoConstraints="NO" id="lH0-Qa-9IW">
+                                <rect key="frame" x="-58" y="-72" width="515" height="986"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uhO-eL-ha0">
+                                <rect key="frame" x="-48" y="-62" width="212" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">“Skyscraper” Demi Lovato
+</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LRd-tt-GUc">
+                                <rect key="frame" x="-48" y="-62" width="240" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">“Beautiful” Christina Aguilera
+</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CJ2-mC-MJR">
+                                <rect key="frame" x="-48" y="-62" width="240" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">“Beautiful” Christina Aguilera
+</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="zvZ-Mm-Wfw">
+                                <rect key="frame" x="-48" y="-62" width="240" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">“Beautiful” Christina Aguilera
+</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sEq-BH-34n">
+                                <rect key="frame" x="-48" y="-62" width="240" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">“Beautiful” Christina Aguilera
+</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ddg-t8-U0T">
+                                <rect key="frame" x="12" y="20" width="75" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="20"/>
+                                <state key="normal" title="Go Back">
+                                    <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NRQ-bt-IDz" kind="show" id="UPF-B1-9SJ"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-6" translatesAutoresizingMaskIntoConstraints="NO" id="iKc-aU-h43">
+                                <rect key="frame" x="220" y="658" width="183" height="141"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-7" translatesAutoresizingMaskIntoConstraints="NO" id="Weu-gD-VZR">
+                                <rect key="frame" x="224" y="117" width="183" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aAb-iN-KRr">
+                                <rect key="frame" x="26" y="106" width="173" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal">
+                                    <string key="title">"Stronger" Kelly Clarkson
+</string>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonOne:" destination="mcs-pS-zXD" eventType="touchUpInside" id="x58-0F-2cI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CoR-bW-XWv">
+                                <rect key="frame" x="17" y="177" width="182" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <string key="title">“Skyscraper” Demi Lovato
+</string>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTwo:" destination="mcs-pS-zXD" eventType="touchUpInside" id="QkN-pj-fzN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x2R-U6-g3e">
+                                <rect key="frame" x="241" y="328" width="166" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <string key="title">“Lose Yourself” Eminem
+</string>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonThree:" destination="mcs-pS-zXD" eventType="touchUpInside" id="iQF-GW-Tnq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LLT-ei-d0H">
+                                <rect key="frame" x="10" y="461" width="200" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <string key="title">“Beautiful” Christina Aguilera
+</string>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonFour:" destination="mcs-pS-zXD" eventType="touchUpInside" id="9WE-PB-hiS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U76-LP-o3c">
+                                <rect key="frame" x="10" y="328" width="213" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="“Don’t Stop Believing” Journey">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonFive:" destination="mcs-pS-zXD" eventType="touchUpInside" id="Yyx-Ov-DJH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgw-UZ-F2H">
+                                <rect key="frame" x="4" y="397" width="160" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <string key="title">“Stronger” Kanye West
+</string>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonSix:" destination="mcs-pS-zXD" eventType="touchUpInside" id="jx6-sa-geO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2R-2r-Bk0">
+                                <rect key="frame" x="184" y="397" width="219" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="“We are the Champions” Queen">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonSeven:" destination="mcs-pS-zXD" eventType="touchUpInside" id="aA1-S6-Cr6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pul-OW-4v8">
+                                <rect key="frame" x="228" y="264" width="175" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <string key="title">“Hall of Fame” The Script
+</string>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonEight:" destination="mcs-pS-zXD" eventType="touchUpInside" id="cmN-8l-nRA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qSZ-lU-JZO">
+                                <rect key="frame" x="233" y="541" width="167" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <string key="title">“Titanium” David Guetta
+</string>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonNine:" destination="mcs-pS-zXD" eventType="touchUpInside" id="FFE-aN-7N9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jb0-ec-dBu">
+                                <rect key="frame" x="11" y="253" width="199" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <string key="title">“I Will Survive” Gloria Gaynor
+</string>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTen:" destination="mcs-pS-zXD" eventType="touchUpInside" id="r1H-Up-wUg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ILr-ae-Jwy">
+                                <rect key="frame" x="224" y="461" width="184" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <string key="title">“Eye of the Tiger” Survivor
+</string>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonTwelve:" destination="mcs-pS-zXD" eventType="touchUpInside" id="ZpP-4d-A1c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1B-rn-UC2">
+                                <rect key="frame" x="4" y="602" width="258" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="“Scars to your Beautiful” Alessia Cara">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonFourteen:" destination="mcs-pS-zXD" eventType="touchUpInside" id="Fjc-1D-btj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fym-1Z-NI3">
+                                <rect key="frame" x="11" y="531" width="206" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray4Color" red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <string key="title">“I’m Still Standing” Elton John
+</string>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonEleven:" destination="mcs-pS-zXD" eventType="touchUpInside" id="w6l-0a-iLy"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unnamed" translatesAutoresizingMaskIntoConstraints="NO" id="Iw2-jx-HGR">
+                                <rect key="frame" x="-12" y="664" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9D-18-yg6">
+                                <rect key="frame" x="109" y="20" width="254" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.078431372550000003" blue="0.2666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="35"/>
+                                <state key="normal" title="Inspiring Music">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90912741422653198" green="0.8548082709312439" blue="0.95675736665725708" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="nkp-r1-NdY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hBk-Bl-m6v"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JoO-9Q-70x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="123.18840579710145" y="820.98214285714278"/>
+        </scene>
+        <!--Inspirational People View Controller-->
+        <scene sceneID="uSZ-Nf-oLj">
+            <objects>
+                <viewController id="hqq-Qv-tJN" customClass="InspirationalPeopleViewController" customModule="NewFinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fpm-PG-2J1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iOC-Ya-La2">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Christopher Gardner" id="vDR-64-XfZ">
+                                        <barButtonItem key="leftBarButtonItem" title="Go Back" id="pD9-BH-wJ5">
+                                            <connections>
+                                                <segue destination="QSw-j4-DyB" kind="show" id="IAO-J7-W7j"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="31" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clp-O5-53y">
+                                <rect key="frame" x="0.0" y="366" width="414" height="442"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Chris Gardner has come a long way from being homeless. He is a huge success in the stock brokerage business and has a whopping net worth of $165 million. Chris had an extremely rough childhood and grew up with an abusive stepfather. In his early adult life he met a young woman and married, but it didn't go well. Chris notes in his book that there was a lot of cocaine usage and partying going on between the two of them, which resulted in an unsuccessful marriage. Chris ventured into broker training programs. However, Chris quoted in several interviews as stating that he didn’t have enough money to have both shelter and food, so he always chose food so that his son would be nourished. They slept in airport waiting areas, halfway houses and even the floor of the subway bathroom. Chris continued, through sheer perseverance to learn the stock trade as a trainee in the Dean Witter offices. He was eventually noticed by the head of Bear Stern’s San Francisco office, where he received a bigger draw and more payout, which allowed him to finally get off the streets and rent an apartment and provide daycare for his son.  Chris eventually transferred to the New York office of Bearn Stearns because of his tenacious work ethic, but he didn’t stop there.  In 1987, with the help of some friends and customers, he opened Gardner Rich &amp; Co., which has since been very prosperous.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="chrisgardnernysmallbizexpo*1200xx3000-1693-0-34" translatesAutoresizingMaskIntoConstraints="NO" id="2wZ-Ok-rIm">
+                                <rect key="frame" x="22" y="83" width="371" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.67136138420000002" green="0.78732167900000005" blue="0.8427057094" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="E4e-5r-jaZ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9Zy-SR-xzs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ddm-ul-UwU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4082.6086956521744" y="1508.7053571428571"/>
+        </scene>
+        <!--Inspirational People View Controller-->
+        <scene sceneID="WzW-Yd-V2F">
+            <objects>
+                <viewController id="sxB-95-xjJ" customClass="InspirationalPeopleViewController" customModule="NewFinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Eo0-wo-h4z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PxN-kl-3Gp">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Oprah Winfrey" id="2Hs-AU-WBI">
+                                        <barButtonItem key="leftBarButtonItem" title="Go Back" id="8MC-DV-zNi">
+                                            <connections>
+                                                <segue destination="QSw-j4-DyB" kind="show" id="WV4-ak-8Id"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="29" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQx-5I-NSo">
+                                <rect key="frame" x="20" y="345" width="374" height="479"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">More than a mere talk show host, Oprah Winfrey is an award-winning actress and producer, a media mogul, and a philanthropist. Many people count her among the most influential women internationally. However, she had a very difficult childhood and worked tremendously hard to get to her current position. As a child, Oprah was very smart and excelled in school; however, her family was rather poor. Oprah has also been open about how she faced sexual abuse from the mere age of 9 years old. She was raped by her 19 year old cousin, and later, by her uncle. Oprah was unable to talk about her sexual abuse with her mother. As a result, Oprah started to act out. She would skip school, steal money from her mother, and even run away. Her mother couldn’t handle her behavior, and sent Oprah to live with her father. When she was just 14, Oprah realized that she was pregnant. She was able to hide this news from her parents until she was seven months along. She went into early labor on the same day she told her father about the pregnancy. She delivered a baby boy, who died within two weeks. A change came about for 16-year-old Oprah when she first read the autobiography of Maya Angelou, autobiography, "I Know Why the Caged Bird Sings." This experience changed her outlook, and she began to get her life back on track. She concentrated on her education and returned to public speaking, a talent that took her very far.
+</string>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Oprah-Winfrey-Photo-Credit-Harpo-Inc.-Ruven-Afanador-e1594678409848-960x816" translatesAutoresizingMaskIntoConstraints="NO" id="lCc-Xe-mqC">
+                                <rect key="frame" x="44" y="92" width="328" height="245"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.67136138420000002" green="0.78732167900000005" blue="0.8427057094" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="weQ-Ts-yS6"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Tlk-QH-Itv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VTF-KP-IFo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4082.6086956521744" y="813.61607142857144"/>
+        </scene>
+        <!--Inspirational People View Controller-->
+        <scene sceneID="BME-UD-Uxl">
+            <objects>
+                <viewController id="Pv9-Cj-Enl" customClass="InspirationalPeopleViewController" customModule="NewFinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pm7-cQ-IvR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5sF-Vw-unr">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Serena Williams" id="w84-eI-LaC">
+                                        <barButtonItem key="leftBarButtonItem" title="Go Back" id="V15-xE-M1j">
+                                            <connections>
+                                                <segue destination="QSw-j4-DyB" kind="show" id="i0j-FI-yVE"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UwF-IY-F6K">
+                                <rect key="frame" x="40" y="373" width="342" height="458"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <mutableString key="text">Serena Williams was born on September 26, 1981 in Compton, Los Angeles. She was the youngest of five children, and picked up her love for tennis at the young age of three. Her potential to become great in the game could not be overlooked, so she started attending the tennis academy of Rick Macci, who polished her in-born skills and talent. Serena went professional at the age of 14, against her parent’s wish.  At that age, she entered her first professional tournament after some setbacks by the WTA as a result of age issues in a prior event. Serena was ousted out of her first professional tournament after winning just two games. During the early 2000s, Serena’s professional career had many ups and downs. However, 2006 was a difficult year for her, as she suffers from depression. She cut off and shut herself from the world for a period, seeing a therapist daily. But after meeting with a young girl who happens to be a die-hard fan of Serena she felt inspired and returned back to the court. She became an inspiration for girls around the world, as she excelled in tennis.
+</mutableString>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Serena_Williams_BNP_Paribas_Showdown_April_6_2013" translatesAutoresizingMaskIntoConstraints="NO" id="qhn-fd-wgC">
+                                <rect key="frame" x="32" y="92" width="350" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.67136138420000002" green="0.78732167900000005" blue="0.8427057094" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="Wf4-hn-TRk"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pdK-Ln-5ta"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B18-st-6v4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3292.753623188406" y="817.63392857142856"/>
+        </scene>
+        <!--Quotes View Controller-->
+        <scene sceneID="HrX-ZH-vnz">
+            <objects>
+                <viewController id="T8l-8q-gpu" customClass="QuotesViewController" customModule="NewFinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B5U-LA-cH7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ddd2f2970877614132fe253d19a7dad8" translatesAutoresizingMaskIntoConstraints="NO" id="mXV-QE-32R">
+                                <rect key="frame" x="0.0" y="-82" width="542" height="1027"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aKh-qb-LmU">
+                                <rect key="frame" x="19" y="66" width="374" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">✦ “We realize the importance of our voices only when we are silenced.” – Malala Yousafza
+
+✦ “The hard days are what make you stronger.” – Aly Raisman
+
+✦ “Nothing can dim the light that shines from within.” – Maya Angelou
+
+✦“What is life without a little risk?” – J.K. Rowling
+
+</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UUM-Oi-6T5">
+                                <rect key="frame" x="19" y="275" width="374" height="604"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">✦ “Be a first rate version of yourself, not a second rate version of someone else.” – Judy Garland     
+                                                   
+✦“You Learn More From Failure Than From Success. Don’t Let It Stop You. Failure Builds Character.” – Unknown    
+                
+✦“People Who Are Crazy Enough To Think They Can Change The World, Are The Ones Who Do.” – Rob Siltanen 
+
+✦“All our dreams can come true, if we have the courage to pursue them.” – Walt Disney
+
+✦“Whenever you find yourself doubting how far you can go, just remember how far you have come.” – Unknown
+
+✦“Success is liking yourself, liking what you do, and liking how you do it.” – Maya Angelou
+
+✦“You can’t go back and change the beginning, but you can start where you are and change the ending.” – C.S. Lewis
+
+✦“We need to accept that we won’t always make the right decisions, that we’ll screw up royally sometimes – understanding that failure is not the opposite of success, it’s part of success.” – Arianna Huffington
+</mutableString>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Bold" family="Bodoni 72" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quotes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0Ew-iq-Jhm">
+                                <rect key="frame" x="141" y="5" width="130" height="53"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1960784314" green="0.56078431370000004" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dq7-fT-gsr">
+                                <rect key="frame" x="16" y="20" width="75" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="20"/>
+                                <state key="normal" title="Go Back">
+                                    <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButton:" destination="T8l-8q-gpu" eventType="touchUpInside" id="ZLb-vI-Q9R"/>
+                                    <segue destination="NRQ-bt-IDz" kind="show" id="8Uz-Kr-9Bo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="4mG-8K-JKi"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="N0u-WZ-Xy1"/>
+                    <connections>
+                        <outlet property="quotesLabel" destination="0Ew-iq-Jhm" id="4yY-g0-e0h"/>
+                        <outlet property="quotesOne" destination="aKh-qb-LmU" id="zeO-tP-rlw"/>
+                        <outlet property="quotesTwo" destination="UUM-Oi-6T5" id="f8k-fO-c5S"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zn8-WY-NhM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="1537.5"/>
+        </scene>
+        <!--Tips View Controller-->
+        <scene sceneID="2lY-AD-1O0">
+            <objects>
+                <viewController id="K52-PX-YXC" customClass="TipsViewController" customModule="NewFinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0lI-9S-xbl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jxE-PJ-HYb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="YR7-S7-1U5">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="968"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BVk-HL-kNF">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="968"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Tips:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7Yv-Zh-2mc">
+                                                        <rect key="frame" x="157" y="10" width="98" height="50"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" red="0.73518037800000002" green="0.78480225800000003" blue="0.91766506430000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="35"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1U1-JQ-YM3">
+                                                        <rect key="frame" x="23" y="22" width="75" height="36"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="20"/>
+                                                        <state key="normal" title="Go Back">
+                                                            <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="backButtonTwo:" destination="K52-PX-YXC" eventType="touchUpInside" id="VDa-3t-Ohe"/>
+                                                            <segue destination="NRQ-bt-IDz" kind="show" id="mgF-X6-m85"/>
+                                                        </connections>
+                                                    </button>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="center" id="1q5-lz-m21">
+                                                        <rect key="frame" x="8" y="64" width="398" height="1426"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <mutableString key="text">(1) Look at things from a positive perspective.                      
+(2) Take breaks, allow yourself to stop for a moment and breathe. Enjoy the present! 
+(3) Be honest to yourself. Try to grow and learn from mistakes. 
+(4) Love yourself. You’re you for a reason. Don’t let negative judgements affect you. (Especially criticism on your looks.) 
+(5) Treat everyone with respect &amp; kindness. It makes you a better person! 
+(6) Try to set goals for yourself 
+(7) Don’t be afraid of asking questions! 
+(8) Be curious and try to learn more as it opens your mind.  
+(9) Get a hobby, it doesn't have to be productive. As long as you enjoy it and it helps you relax from any stress/problems. 
+(10) Learn from mistakes. Understand what went wrong and how you can improve to do better. 
+(11) Take charge, take action, stop procrastinating. Whatever you want to do, don’t stall and attempt to make your moves. If you succeed or fail, be proud.  
+(12) See rejection as an opportunity to move on and/or improve yourself. 
+(13) Let go of stress and worry in creative or physical and healthy outlets 
+
+</mutableString>
+                                                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="20"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ddd2f2970877614132fe253d19a7dad8" translatesAutoresizingMaskIntoConstraints="NO" id="Uko-2q-ZfK">
+                                                        <rect key="frame" x="-324" y="0.0" width="1061" height="1294"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="YR7-S7-1U5" firstAttribute="trailing" secondItem="IGe-o7-viP" secondAttribute="trailing" id="MC6-XT-gQu"/>
+                                    <constraint firstItem="YR7-S7-1U5" firstAttribute="width" secondItem="FfH-yi-jsR" secondAttribute="width" id="UhN-Vr-FjW"/>
+                                    <constraint firstItem="YR7-S7-1U5" firstAttribute="leading" secondItem="IGe-o7-viP" secondAttribute="leading" id="f9U-hA-NVN"/>
+                                    <constraint firstItem="YR7-S7-1U5" firstAttribute="top" secondItem="IGe-o7-viP" secondAttribute="top" id="gN6-6I-Akm"/>
+                                    <constraint firstItem="YR7-S7-1U5" firstAttribute="bottom" secondItem="IGe-o7-viP" secondAttribute="bottom" id="xYm-Ix-1hN"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="IGe-o7-viP"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="FfH-yi-jsR"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="jxE-PJ-HYb" secondAttribute="bottom" id="5Jy-Mm-51F"/>
+                            <constraint firstItem="jxE-PJ-HYb" firstAttribute="top" secondItem="0lI-9S-xbl" secondAttribute="top" id="9rX-Bs-wQl"/>
+                            <constraint firstItem="jxE-PJ-HYb" firstAttribute="trailing" secondItem="gXy-3P-ryT" secondAttribute="trailing" id="cXw-dJ-6cK"/>
+                            <constraint firstItem="jxE-PJ-HYb" firstAttribute="leading" secondItem="gXy-3P-ryT" secondAttribute="leading" id="o83-ai-rfH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gXy-3P-ryT"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hym-yn-eR2"/>
+                    <connections>
+                        <outlet property="tips" destination="1q5-lz-m21" id="MUp-1o-GF2"/>
+                        <outlet property="tipsLabel" destination="7Yv-Zh-2mc" id="Waf-Pe-PGD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EmA-Xh-EdB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="842.02898550724649" y="1537.5"/>
+        </scene>
+        <!--Inspirational People View Controller-->
+        <scene sceneID="oKu-5S-oTp">
+            <objects>
+                <viewController id="QSw-j4-DyB" customClass="InspirationalPeopleViewController" customModule="NewFinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bnU-3w-1lE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ddd2f2970877614132fe253d19a7dad8" translatesAutoresizingMaskIntoConstraints="NO" id="2EV-ZR-oHz">
+                                <rect key="frame" x="-137" y="-9" width="551" height="978"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click on an inspirational figure:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyc-vu-zmB">
+                                <rect key="frame" x="44" y="183" width="325" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIT-ed-1yl">
+                                <rect key="frame" x="45" y="244" width="125" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="27"/>
+                                <state key="normal" title="Liz Murray">
+                                    <color key="titleColor" red="1" green="0.96710369340000002" blue="0.99826084349999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="one:" destination="QSw-j4-DyB" eventType="touchUpInside" id="DPO-bX-myF"/>
+                                    <segue destination="POi-C7-ukT" kind="show" id="oFB-qY-mIg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uk-vA-lOi">
+                                <rect key="frame" x="44" y="297" width="139" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="27"/>
+                                <state key="normal" title="Marie Curie">
+                                    <color key="titleColor" red="1" green="0.96710369340000002" blue="0.99826084349999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="two:" destination="QSw-j4-DyB" eventType="touchUpInside" id="9O2-Os-sX0"/>
+                                    <segue destination="8UV-zV-iJb" kind="show" id="qqB-Zt-Sww"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8R-ZY-gkD">
+                                <rect key="frame" x="44" y="350" width="239" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="27"/>
+                                <state key="normal" title="Christopher Gardner">
+                                    <color key="titleColor" red="1" green="0.96710369340000002" blue="0.99826084349999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="three:" destination="QSw-j4-DyB" eventType="touchUpInside" id="z69-Mk-yCG"/>
+                                    <segue destination="hqq-Qv-tJN" kind="show" id="2Vc-qs-xYY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rmh-2c-1Yd">
+                                <rect key="frame" x="44" y="403" width="174" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="27"/>
+                                <state key="normal" title="Oprah Winfrey">
+                                    <color key="titleColor" red="1" green="0.96710369340000002" blue="0.99826084349999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="four:" destination="QSw-j4-DyB" eventType="touchUpInside" id="rPA-aA-MUF"/>
+                                    <segue destination="sxB-95-xjJ" kind="show" id="T6J-vk-pDT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LyL-HU-rPb">
+                                <rect key="frame" x="45" y="458" width="188" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="27"/>
+                                <state key="normal" title="Serena Williams">
+                                    <color key="titleColor" red="1" green="0.96710369340000002" blue="0.99826084349999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="five:" destination="QSw-j4-DyB" eventType="touchUpInside" id="nme-ae-FjX"/>
+                                    <segue destination="Pv9-Cj-Enl" kind="show" id="G8S-Vp-hwd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEn-Xg-Uq1">
+                                <rect key="frame" x="23" y="22" width="75" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="20"/>
+                                <state key="normal" title="Go Back">
+                                    <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NRQ-bt-IDz" kind="show" id="NXN-0t-5Ai"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inspirational People" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bgg-aX-grJ">
+                                <rect key="frame" x="51" y="84" width="311" height="56"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0039215686274509803" green="0.31764705882352939" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="35"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="gRB-sa-rX6"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="W8i-Yc-y08"/>
+                    <connections>
+                        <outlet property="inspoLabel" destination="bgg-aX-grJ" id="tEF-g5-LWL"/>
+                        <outlet property="inspoText" destination="dyc-vu-zmB" id="Kwi-Gv-Fpq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2vS-9e-dha" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="843.47826086956525" y="817.63392857142856"/>
+        </scene>
+        <!--Inspirational People View Controller-->
+        <scene sceneID="PiC-MN-Gzl">
+            <objects>
+                <viewController id="POi-C7-ukT" customClass="InspirationalPeopleViewController" customModule="NewFinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YSp-dP-J3W">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ko8-hR-1Zn">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Liz Murray" id="sNw-41-Gwc">
+                                        <barButtonItem key="leftBarButtonItem" title="Go Back" id="R43-BU-MAY">
+                                            <connections>
+                                                <segue destination="QSw-j4-DyB" kind="show" id="RaN-tm-Ts5"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CUu-zu-oU0">
+                                <rect key="frame" x="-264" y="494" width="6843" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqY-os-2i2">
+                                <rect key="frame" x="20" y="389" width="374" height="419"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">When Liz became homeless at the age of 15, it was just after her mother died of HIV and her father moved into a homeless shelter. In such a painful situation, most people would only be able to see their immediate circumstances. But Liz would seek a better reality for herself, despite her intense limitations. So she attended a local high school and graduated in just two years. She was then awarded a New York Times scholarship for needy students and was accepted into Harvard University, eventually earning her doctorate in clinical psychology. She has since written a New York Times best-selling memoir, “Breaking Night: A Memoir of Forgiveness, Survival, and My Journey from Homeless to Harvard” which was also a made-for-TV movie. Liz inspires me because she didn’t let her circumstances dictate her future. Instead, she chose her own destiny and manifested it, despite overwhelming obstacles.</string>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Murray_Liz_PROMOPIC" translatesAutoresizingMaskIntoConstraints="NO" id="Uz7-nP-0z7">
+                                <rect key="frame" x="12" y="78" width="390" height="283"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.67136138420000002" green="0.78732167900000005" blue="0.8427057094" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="z08-H1-UwL"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pH2-z1-WlV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fEh-AV-9M5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1610.144927536232" y="814.95535714285711"/>
+        </scene>
+        <!--Inspirational People View Controller-->
+        <scene sceneID="eZz-AS-DRB">
+            <objects>
+                <viewController id="8UV-zV-iJb" customClass="InspirationalPeopleViewController" customModule="NewFinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PFo-70-k4q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4X4-tc-k9N">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Marie Curie" id="rBB-WF-t7G">
+                                        <barButtonItem key="leftBarButtonItem" title="Go Back" id="cml-kj-gmf">
+                                            <connections>
+                                                <segue destination="QSw-j4-DyB" kind="show" id="7qW-Ga-JJW"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1200px-Marie_Curie_c1920" translatesAutoresizingMaskIntoConstraints="NO" id="9fV-8K-c7P">
+                                <rect key="frame" x="0.0" y="87" width="417" height="291"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBb-3Y-kJ2">
+                                <rect key="frame" x="28" y="393" width="359" height="429"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Marie Curie was a physicist well known for her discovery of the elements polonium and radium. She earned the Nobel Prize in physics in 1903 and the Nobel Prize in chemistry in 1911. Despite her success, she faced many struggles in her life. Her mother had died due to tuberculosis when Curie was very young. Curie's mother's death had a significant impact on Curie, leading to her life-long battle with depression and shaping her religious views. Curie also faced many difficulties to get a higher education. Many colleges did not accept her for being a woman. Working as a governess, she helped pay for her sister's years at medical school, and then left for France. Here, she was able to enroll in a college, and did exceedingly well. Unfortunately, Marie passed away in 1934 due to aplastic anemia - a condition that occurs when bone marrow fails to produce new blood cells - which was likely caused due to her work with radioactive materials. To this day, her extraordinary work is appreciated and recognized around the world.</string>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.67136138420000002" green="0.78732167900000005" blue="0.8427057094" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="5Rj-NK-ugZ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rXI-sc-LPX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="opq-XG-lPE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2430.434782608696" y="813.61607142857144"/>
+        </scene>
+        <!--Emotions View Controller-->
+        <scene sceneID="NFG-z1-0kL">
+            <objects>
+                <viewController id="plL-m5-Tm1" customClass="EmotionsViewController" customModule="NewFinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rTq-H5-eVh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1bebc2ae3763428cf224197d3cb3a49a" translatesAutoresizingMaskIntoConstraints="NO" id="XOI-zS-RHM">
+                                <rect key="frame" x="-24" y="-81" width="462" height="1059"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnw-uv-UZo">
+                                <rect key="frame" x="40" y="240" width="335" height="514"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How do you feel today?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJD-3d-C0o">
+                                <rect key="frame" x="33" y="127" width="348" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zLs-m7-F1h">
+                                <rect key="frame" x="80" y="289" width="254" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.94465492200000001" blue="0.4202071248" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="30"/>
+                                <state key="normal" title="Happy">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NRQ-bt-IDz" kind="show" id="LXL-l6-ciS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0cp-gW-WE0">
+                                <rect key="frame" x="80" y="401" width="254" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.52374338499999995" blue="0.4893877378" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="30"/>
+                                <state key="normal" title="Angry">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NRQ-bt-IDz" kind="show" id="szy-jv-OXu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMv-Uc-mHf">
+                                <rect key="frame" x="80" y="630" width="254" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.63651447019999996" green="0.67542089819999995" blue="0.69019187179999997" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="30"/>
+                                <state key="normal" title="Tired">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NRQ-bt-IDz" kind="show" id="sDW-Tf-sFx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfa-WF-ru0">
+                                <rect key="frame" x="80" y="517" width="254" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.59581275499999997" green="0.6842366835" blue="1" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="30"/>
+                                <state key="normal" title="Sad">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NRQ-bt-IDz" kind="show" id="5rA-D0-WeZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="vv8-5j-MB9"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="G60-Gm-ZRw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bIx-rY-0QB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="857.97101449275374" y="118.52678571428571"/>
+        </scene>
+        <!--Pick Your Inspiration View Controller-->
+        <scene sceneID="yZz-TD-tbe">
+            <objects>
+                <viewController id="NRQ-bt-IDz" customClass="PickYourInspirationViewController" customModule="NewFinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xHA-lc-iCG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick Your Inspiration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Nw-jH-BV7">
+                                <rect key="frame" x="129" y="438" width="156" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1bebc2ae3763428cf224197d3cb3a49a" translatesAutoresizingMaskIntoConstraints="NO" id="Zym-mI-fJg">
+                                <rect key="frame" x="-24" y="-81" width="462" height="1059"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ei-PN-7GS">
+                                <rect key="frame" x="40" y="169" width="335" height="654"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INSPIRATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ue4-hz-dcF">
+                                <rect key="frame" x="169" y="103" width="206" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhF-ZE-aTQ">
+                                <rect key="frame" x="80" y="230" width="254" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.078431372549019607" blue="0.26666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="30"/>
+                                <state key="normal" title="Music">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="musicButton:" destination="NRQ-bt-IDz" eventType="touchUpInside" id="nZN-jb-X08"/>
+                                    <segue destination="mcs-pS-zXD" kind="show" id="FKz-AX-2Nr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oov-uS-12L">
+                                <rect key="frame" x="80" y="342" width="254" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0039215686274509803" green="0.31764705882352939" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="30"/>
+                                <state key="normal" title="People">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="peopleButton:" destination="NRQ-bt-IDz" eventType="touchUpInside" id="lL9-7d-kan"/>
+                                    <segue destination="QSw-j4-DyB" kind="show" id="brl-oG-wuS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zDu-JI-6LZ">
+                                <rect key="frame" x="80" y="467" width="254" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.19607843137254902" green="0.5607843137254902" blue="0.70588235294117641" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="30"/>
+                                <state key="normal" title="Quotes">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="Quotes:" destination="NRQ-bt-IDz" eventType="touchUpInside" id="dPu-YU-XOb"/>
+                                    <segue destination="T8l-8q-gpu" kind="show" id="d76-qq-hfu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hhj-tT-95L">
+                                <rect key="frame" x="80" y="578" width="254" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.73518037800000002" green="0.78480225800000003" blue="0.91766506430000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="30"/>
+                                <state key="normal" title="Tips">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="tipsButton:" destination="NRQ-bt-IDz" eventType="touchUpInside" id="faj-xL-DEO"/>
+                                    <segue destination="K52-PX-YXC" kind="show" id="vbK-fo-dzc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47A-TW-a0w">
+                                <rect key="frame" x="80" y="697" width="254" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.97254901960784312" green="0.83921568627450982" blue="0.74901960784313726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="30"/>
+                                <state key="normal" title="Goal Keeper">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="goalButton:" destination="NRQ-bt-IDz" eventType="touchUpInside" id="GIo-WZ-ItH"/>
+                                    <segue destination="arh-dO-7gp" kind="show" id="PX5-f1-1gQ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose your" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oWB-cY-o32">
+                                <rect key="frame" x="40" y="69" width="185" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="hmB-ut-Fay"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HMD-6S-DON"/>
+                    <connections>
+                        <outlet property="inpoLabel" destination="oWB-cY-o32" id="k9X-Ky-ZeL"/>
+                        <outlet property="inspoLabelTwo" destination="ue4-hz-dcF" id="bs4-Db-UhS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dbd-g4-LlT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1592.753623188406" y="118.52678571428571"/>
+        </scene>
+        <!--Completed To Do View Controller-->
+        <scene sceneID="QOR-cr-dPk">
+            <objects>
+                <viewController id="vrL-yA-XN7" customClass="CompletedToDoViewController" customModule="NewFinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FrQ-i8-xUJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1bebc2ae3763428cf224197d3cb3a49a" translatesAutoresizingMaskIntoConstraints="NO" id="I53-jf-L4x">
+                                <rect key="frame" x="-444" y="-9" width="1303" height="861"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mKE-7z-y3P">
+                                <rect key="frame" x="134" y="615" width="129" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="30"/>
+                                <state key="normal" title="Complete">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="completeTapped:" destination="vrL-yA-XN7" eventType="touchUpInside" id="Nib-cf-H1n"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We're so proud of you for" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtS-w9-wWy">
+                                <rect key="frame" x="86" y="246" width="244" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRw-bp-hTw">
+                                <rect key="frame" x="51" y="291" width="314" height="170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.67136138416780755" green="0.78732167898634509" blue="0.8427057094" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="Jvp-p9-0cL"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DRq-E1-tFP"/>
+                    <connections>
+                        <outlet property="toDoDisplay" destination="HRw-bp-hTw" id="eD9-oc-VI1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hnP-l8-Q8U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3795.652173913044" y="-548.4375"/>
+        </scene>
+        <!--Goal Tracker-->
+        <scene sceneID="TzN-Hn-rMr">
+            <objects>
+                <tableViewController id="eYG-Rm-wdo" customClass="ToDoTableViewController" customModule="NewFinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="37G-82-Pkr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.1960784314" green="0.56078431370000004" blue="0.70588235290000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="TJW-4l-Y1e">
+                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TJW-4l-Y1e" id="9J3-v3-Rny">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="eYG-Rm-wdo" id="vDt-Gq-jP8"/>
+                            <outlet property="delegate" destination="eYG-Rm-wdo" id="Gbu-uw-qez"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Goal Tracker" id="0ce-Yq-jDm">
+                        <barButtonItem key="leftBarButtonItem" title="Go Back" id="3CQ-em-cCv">
+                            <connections>
+                                <segue destination="NRQ-bt-IDz" kind="show" id="szb-nA-4GU"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="plus" catalog="system" id="a8r-hu-YEv">
+                            <connections>
+                                <segue destination="te9-8F-SQj" kind="show" id="Fwg-I8-IBp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="vrL-yA-XN7" kind="show" identifier="moveToCompletedToDoVC" id="1mC-QE-PU7"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6fN-Ye-X0g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3795.652173913044" y="118.52678571428571"/>
+        </scene>
+        <!--Add To Do View Controller-->
+        <scene sceneID="uhI-0x-yos">
+            <objects>
+                <viewController id="te9-8F-SQj" customClass="AddToDoViewController" customModule="NewFinalApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dmA-NX-G6k">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1bebc2ae3763428cf224197d3cb3a49a" translatesAutoresizingMaskIntoConstraints="NO" id="i7M-IT-3nD">
+                                <rect key="frame" x="-313" y="11" width="1027" height="865"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9fv-o0-Skm">
+                                <rect key="frame" x="53" y="364" width="309" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGs-6g-x5F">
+                                <rect key="frame" x="290" y="471" width="65" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="36"/>
+                                <state key="normal" title="Add">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="addButtonTapped:" destination="te9-8F-SQj" eventType="touchUpInside" id="BFl-2K-cCI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter your goal here:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GdP-ow-F3w">
+                                <rect key="frame" x="53" y="313" width="268" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.67136138420000002" green="0.78732167900000005" blue="0.8427057094" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <viewLayoutGuide key="safeArea" id="g3g-wK-ysx"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="JfL-eZ-9Vc"/>
+                    <connections>
+                        <outlet property="descriptionInput" destination="9fv-o0-Skm" id="WFE-Pu-Rjo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Ms-pN-mUh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4598.5507246376819" y="117.85714285714285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="POp-gB-u6O">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="arh-dO-7gp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="0Yn-4i-y6R"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9yq-4a-KSj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eYG-Rm-wdo" kind="relationship" relationship="rootViewController" id="bB9-1H-X3v"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MrH-sc-GTs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2885.507246376812" y="118.52678571428571"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="UPF-B1-9SJ"/>
+        <segue reference="RaN-tm-Ts5"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="1200px-Marie_Curie_c1920" width="1200" height="1631"/>
+        <image name="1bebc2ae3763428cf224197d3cb3a49a" width="1755" height="3455"/>
+        <image name="Murray_Liz_PROMOPIC" width="857" height="1200"/>
+        <image name="Oprah-Winfrey-Photo-Credit-Harpo-Inc.-Ruven-Afanador-e1594678409848-960x816" width="960" height="816"/>
+        <image name="Serena_Williams_BNP_Paribas_Showdown_April_6_2013" width="1024" height="683"/>
+        <image name="Unknown-6" width="275" height="183"/>
+        <image name="Unknown-7" width="259" height="194"/>
+        <image name="chrisgardnernysmallbizexpo*1200xx3000-1693-0-34" width="1200" height="677"/>
+        <image name="ddd2f2970877614132fe253d19a7dad8" width="1080" height="1920"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <image name="unnamed" width="591" height="393"/>
+    </resources>
+</document>
